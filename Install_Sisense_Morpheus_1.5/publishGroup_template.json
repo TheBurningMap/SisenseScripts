@@ -1,0 +1,10 @@
+{
+  "shares": [
+{
+"shareId": "#group_Id#",
+"type": "group",
+"rule": "view",
+"subscribe": false
+}
+    ]
+}

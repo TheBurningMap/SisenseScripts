@@ -1,0 +1,31 @@
+# The target directory for the installation. If it doesn't exist,
+# the directory will be created
+install_directory = #morpheus_install_dir#
+# The HTTP(S) address at which the server should be available after installation
+# such as https://mydomain.com:11443
+server_address = https://#host_name#:#dashboard_port#
+
+# Sisense admin user name
+sisense_rest_user = #username#
+# Password for the Sisense admin user
+sisense_rest_password = #password#
+# Sisense SSO key
+sisense_sso_key = #sharedSecret#
+# The identifier of the default Sisense dashboard
+sisense_default_dashboard = #dashboardID#
+# The directory in which Sisense is installed, such as C:\Program Files\Sisense
+sisense_install_directory = #sisense_install_dir#
+
+# Internet address of the SMTP server which the platform can use for sending
+# emails, such as localhost:25
+smtp_address = 3.57.45.50:25
+# If the SMTP server requires authentication, the value should be the SMTP username
+smtp_username = 
+# If the SMTP server requires authentication, the value should be the SMTP password
+smtp_password = 
+
+# Thumbprint of the certificate used by IIS. It should be a string of hexadecimal
+# characters
+cert_thumbprint = #cert_thumbprint#
+# Locale code which should be used for localization of the platform
+locale = en-US

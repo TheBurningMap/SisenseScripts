@@ -1,0 +1,8 @@
+{
+  "name": "sso",
+  "enabled": true,
+  "ssoType": "jwt",
+  "loginUrl": "https://#host_name#:#dashboard_port#/sso",
+  "logoutUrl": "https://#host_name#:#dashboard_port#/ssoout",
+  "lowSecurityJwtSso": false
+}

@@ -1,0 +1,138 @@
+{
+  "datasource": {
+    "title": "RIS",
+    "id": "aLOCALHOST_aRIS",
+    "address": "LocalHost",
+    "database": "aRIS"
+  },
+  "desc": "",
+  "editing": true,
+  "isPublic": null,
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 2048,
+                    "minWidth": 64,
+                    "maxWidth": 2048,
+                    "height": "320px",
+                    "defaultWidth": 128,
+                    "widgetid": "5667567f3b8e361c1e00000c"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1398,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1406,
+        "index": 0
+      }
+    ],
+    "type": "columnar"
+  },
+  "oid": "5667567f3b8e361c1e00000b",
+  "original": null,
+  "parentFolder": null,
+  "script": "",
+  "source": null,
+  "style": {
+    "name": "vivid",
+    "palette": {
+      "colors": [
+        "#000000",
+        "#131313",
+        "#1e1e1e",
+        "#454545",
+        "#595959",
+        "#797979",
+        "#8c8c8c",
+        "#bfbfbf",
+        "#dcdcdc",
+        "#e1e1e1",
+        "#f3f3f3",
+        "#ffffff",
+        "#cccccc"
+      ],
+      "name": "hdx",
+      "sortOrder": 91
+    }
+  },
+  "subscription": {
+    "isDataChange": true,
+    "schedule": "* * * * * *",
+    "timezone": 480,
+    "tzName": {
+      "timeZoneOffset": 480,
+      "text": "(GMT-08:00) Pacific Time (US and Canada)",
+      "timeZone": "America/Los_Angeles"
+    },
+    "context": {
+      "dashboardid": "5667567f3b8e361c1e00000b",
+      "reportFormat": {
+        "pdf": false,
+        "png": false
+      }
+    },
+    "active": false,
+    "executionPerDay": 1
+  },
+  "title": "Welcome Screen Official",
+  "type": "dashboard",
+  "widgets": [
+    {
+      "dashboardid": "5667567f3b8e361c1e00000b",
+      "datasource": {
+        "title": "RIS",
+        "id": "aLOCALHOST_aRIS",
+        "address": "LocalHost",
+        "database": "aRIS"
+      },
+      "desc": null,
+      "iconSmall": "/resources/dashboard-base/images/generic-widget-24",
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false
+        },
+        "panels": []
+      },
+      "oid": "5667567f3b8e361c1e00000c",
+      "options": {
+        "triggersDomready": true,
+        "hideFromWidgetList": true,
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "toolbarButton": {
+          "css": "add-rich-text",
+          "tooltip": "Add Text"
+        },
+        "dashboardFiltersMode": "filter",
+        "selector": false
+      },
+      "selection": null,
+      "source": null,
+      "style": {
+        "content": {
+          "html": "<h3><span style=\"color:inherit\">Welcome to GE Healthcare Applied Intelligence</span></h3>\n\n<p><span style=\"color:inherit\">Select your dashboard</span></p>\n",
+          "vAlign": "valign-middle",
+          "bgColor": "rgb(255, 255, 255)"
+        }
+      },
+      "subtype": "richtexteditor",
+      "title": "Rich Text",
+      "type": "richtexteditor"
+    }
+  ],
+  "hierarchies": []
+}
